@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestão de Alunos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎸Gestão de Alunos M-GTR</h1>
+
+    <div class="perfil">
+      <p>
+        Professor de guitarra focado em evolução prática.<br>
+        Sistema para organização de alunos e mensalidades.
+      </p>
+    </div>
+
+    <form id="formAluno">
+      <input type="text" id="nome" placeholder="Nome do aluno" required />
+      <input type="number" id="valor" placeholder="Valor (R$)" required />
+      <input type="text" id="dia" placeholder="Dia da aula" required />
+      <button type="submit" id="btnSubmit">Adicionar</button>
+    </form>
+
+    <ul id="listaAlunos"></ul>
+
+    <h3 id="total"></h3>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
