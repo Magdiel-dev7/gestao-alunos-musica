@@ -15,3 +15,5 @@ Aplicação web desenvolvida para organizar alunos e mensalidades de aulas de m�
 - HTML
 - CSS
 - JavaScript
+
+  https://magdiel-dev7.github.io/gestao-alunos-musica/
